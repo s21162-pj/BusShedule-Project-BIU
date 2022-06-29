@@ -5,7 +5,7 @@ export default function MainPageBackground() {
     return(
         <div className="Main-bg">
             <img src={bg} alt="System informacji pasażerskiej"/>
-            <h1 className="Main-bg-text">Przewozy autobusowe na terenie Pomorza</h1>
+            <h1 className="Main-bg-text">Przewozy autobusowe</h1>
         </div>
         );
   }
