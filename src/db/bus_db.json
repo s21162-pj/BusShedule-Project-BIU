@@ -1,0 +1,719 @@
+{
+  "buses": [
+    {
+      "id": 1,
+      "busNumber": "3",
+      "busRoutes": {
+        "routeA": {
+          "id": 1,
+          "routeLabel": "Nowa Wieś Przywidzka - Kartuzy, Dworzec",
+          "busStops": [
+            {
+              "id": 1,
+              "busStopName": "Nowa Wieś Przywidzka",
+              "arrivalTime": ["10:00", "12:00", "15:00", "17:00"]
+            },
+            {
+              "id": 2,
+              "busStopName": "Roztoka",
+              "arrivalTime": ["10:05", "12:05", "15:05", "17:05"]
+            },
+            {
+              "id": 3,
+              "busStopName": "Kamela",
+              "arrivalTime": ["10:10", "12:10", "15:10", "17:10"]
+            },
+            {
+              "id": 4,
+              "busStopName": "Egiertowo, Stacja paliw",
+              "arrivalTime": ["10:20", "12:20", "15:20", "17:20"]
+            },
+            {
+              "id": 5,
+              "busStopName": "Somonino",
+              "arrivalTime": ["10:30", "12:30", "15:30", "17:30"]
+            },
+            {
+              "id": 6,
+              "busStopName": "Kiełpino, Bernardówka",
+              "arrivalTime": ["10:40", "12:40", "15:40", "17:40"]
+            },
+            {
+              "id": 7,
+              "busStopName": "Kartuzy, Dworzec",
+              "arrivalTime": ["10:55", "12:55", "15:55", "17:55"]
+            }
+          ]
+        },
+        "routeB": {
+          "id": 2,
+          "routeLabel": "Kartuzy, Dworzec - Nowa Wieś Przywidzka",
+          "busStops": [
+            {
+              "id": 7,
+              "busStopName": "Kartuzy, Dworzec",
+              "arrivalTime": ["11:00", "13:00", "16:00", "18:00"]
+            },
+            {
+              "id": 6,
+              "busStopName": "Kiełpino, Bernardówka",
+              "arrivalTime": ["11:15", "13:15", "16:15", "18:15"]
+            },
+            {
+              "id": 5,
+              "busStopName": "Somonino",
+              "arrivalTime": ["11:25", "13:25", "16:25", "18:25"]
+            },
+            {
+              "id": 4,
+              "busStopName": "Egiertowo, Stacja paliw",
+              "arrivalTime": ["11:35", "13:35", "16:35", "18:35"]
+            },
+            {
+              "id": 3,
+              "busStopName": "Kamela",
+              "arrivalTime": ["11:45", "13:45", "16:45", "18:45"]
+            },
+            {
+              "id": 2,
+              "busStopName": "Roztoka",
+              "arrivalTime": ["11:50", "13:50", "16:50", "18:50"]
+            },
+            {
+              "id": 1,
+              "busStopName": "Nowa Wieś Przywidzka",
+              "arrivalTime": ["11:55", "13:55", "16:55", "18:55"]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "busNumber": "810",
+      "busRoutes": {
+        "routeA": {
+          "id": 3,
+          "routeLabel": "Gdańsk, Dworzec PKS - Kartuzy, Dworzec",
+          "busStops": [
+            {
+              "id": 8,
+              "busStopName": "Gdańsk, Dworzec PKS",
+              "arrivalTime": ["10:30", "12:30", "14:30", "17:30"]
+            },
+            {
+              "id": 9,
+              "busStopName": "Gdańsk, Uniwersytet Medyczny",
+              "arrivalTime": ["10:35", "12:35", "14:35", "17:35"]
+            },
+            {
+              "id": 10,
+              "busStopName": "Gdańsk, Wrzeszcz PKP",
+              "arrivalTime": ["10:43", "12:43", "14:43", "17:43"]
+            },
+            {
+              "id": 11,
+              "busStopName": "Rębiechowo",
+              "arrivalTime": ["11:07", "13:07", "15:07", "18:07"]
+            },
+            {
+              "id": 12,
+              "busStopName": "Pępowo",
+              "arrivalTime": ["11:15", "13:15", "15:15", "18:15"]
+            },
+            {
+              "id": 13,
+              "busStopName": "Przodkowo, Urząd Gminy",
+              "arrivalTime": ["11:30", "13:30", "15:30", "18:30"]
+            },
+            {
+              "id": 7,
+              "busStopName": "Kartuzy, Dworzec",
+              "arrivalTime": ["11:45", "13:45", "15:45", "18:45"]
+            }
+          ]
+        },
+        "routeB": {
+          "id": 4,
+          "routeLabel": "Kartuzy, Dworzec - Gdańsk, Dworzec PKS",
+          "busStops": [
+            {
+              "id": 7,
+              "busStopName": "Kartuzy, Dworzec",
+              "arrivalTime": ["12:10", "14:10", "16:55", "19:10"]
+            },
+            {
+              "id": 13,
+              "busStopName": "Przodkowo, Urząd Gminy",
+              "arrivalTime": ["12:25", "14:25", "16:25", "19:25"]
+            },
+            {
+              "id": 12,
+              "busStopName": "Pępowo",
+              "arrivalTime": ["12:40", "14:40", "16:40", "19:40"]
+            },
+            {
+              "id": 11,
+              "busStopName": "Rębiechowo",
+              "arrivalTime": ["12:48", "14:48", "16:48", "19:48"]
+            },
+            {
+              "id": 10,
+              "busStopName": "Gdańsk, Wrzeszcz PKP",
+              "arrivalTime": ["13:12", "15:12", "17:12", "20:12"]
+            },
+            {
+              "id": 9,
+              "busStopName": "Gdańsk, Uniwersytet Medyczny",
+              "arrivalTime": ["13:20", "15:20", "17:20", "20:20"]
+            },
+            {
+              "id": 8,
+              "busStopName": "Gdańsk, Dworzec PKS",
+              "arrivalTime": ["13:25", "15:25", "17:25", "20:25"]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 3,
+      "busNumber": "11",
+      "busRoutes": {
+        "routeA": {
+          "id": 3,
+          "routeLabel": "Gdańsk, Dworzec PKS - Kartuzy, Dworzec",
+          "busStops": [
+            {
+              "id": 8,
+              "busStopName": "Gdańsk, Dworzec PKS",
+              "arrivalTime": ["10:30", "12:30", "14:30", "17:30"]
+            },
+            {
+              "id": 9,
+              "busStopName": "Gdańsk, Uniwersytet Medyczny",
+              "arrivalTime": ["10:35", "12:35", "14:35", "17:35"]
+            },
+            {
+              "id": 10,
+              "busStopName": "Gdańsk, Wrzeszcz PKP",
+              "arrivalTime": ["10:43", "12:43", "14:43", "17:43"]
+            },
+            {
+              "id": 11,
+              "busStopName": "Rębiechowo",
+              "arrivalTime": ["11:07", "13:07", "15:07", "18:07"]
+            },
+            {
+              "id": 12,
+              "busStopName": "Pępowo",
+              "arrivalTime": ["11:15", "13:15", "15:15", "18:15"]
+            },
+            {
+              "id": 13,
+              "busStopName": "Przodkowo, Urząd Gminy",
+              "arrivalTime": ["11:30", "13:30", "15:30", "18:30"]
+            },
+            {
+              "id": 7,
+              "busStopName": "Kartuzy, Dworzec",
+              "arrivalTime": ["11:45", "13:45", "15:45", "18:45"]
+            }
+          ]
+        },
+        "routeB": {
+          "id": 4,
+          "routeLabel": "Kartuzy, Dworzec - Gdańsk, Dworzec PKS",
+          "busStops": [
+            {
+              "id": 7,
+              "busStopName": "Kartuzy, Dworzec",
+              "arrivalTime": ["12:10", "14:10", "16:55", "19:10"]
+            },
+            {
+              "id": 13,
+              "busStopName": "Przodkowo, Urząd Gminy",
+              "arrivalTime": ["12:25", "14:25", "16:25", "19:25"]
+            },
+            {
+              "id": 12,
+              "busStopName": "Pępowo",
+              "arrivalTime": ["12:40", "14:40", "16:40", "19:40"]
+            },
+            {
+              "id": 11,
+              "busStopName": "Rębiechowo",
+              "arrivalTime": ["12:48", "14:48", "16:48", "19:48"]
+            },
+            {
+              "id": 10,
+              "busStopName": "Gdańsk, Wrzeszcz PKP",
+              "arrivalTime": ["13:12", "15:12", "17:12", "20:12"]
+            },
+            {
+              "id": 9,
+              "busStopName": "Gdańsk, Uniwersytet Medyczny",
+              "arrivalTime": ["13:20", "15:20", "17:20", "20:20"]
+            },
+            {
+              "id": 8,
+              "busStopName": "Gdańsk, Dworzec PKS",
+              "arrivalTime": ["13:25", "15:25", "17:25", "20:25"]
+            }
+          ]
+        }
+      }
+    },{
+      "id": 4,
+      "busNumber": "823",
+      "busRoutes": {
+        "routeA": {
+          "id": 3,
+          "routeLabel": "Gdańsk, Dworzec PKS - Kartuzy, Dworzec",
+          "busStops": [
+            {
+              "id": 8,
+              "busStopName": "Gdańsk, Dworzec PKS",
+              "arrivalTime": ["10:30", "12:30", "14:30", "17:30"]
+            },
+            {
+              "id": 9,
+              "busStopName": "Gdańsk, Uniwersytet Medyczny",
+              "arrivalTime": ["10:35", "12:35", "14:35", "17:35"]
+            },
+            {
+              "id": 10,
+              "busStopName": "Gdańsk, Wrzeszcz PKP",
+              "arrivalTime": ["10:43", "12:43", "14:43", "17:43"]
+            },
+            {
+              "id": 11,
+              "busStopName": "Rębiechowo",
+              "arrivalTime": ["11:07", "13:07", "15:07", "18:07"]
+            },
+            {
+              "id": 12,
+              "busStopName": "Pępowo",
+              "arrivalTime": ["11:15", "13:15", "15:15", "18:15"]
+            },
+            {
+              "id": 13,
+              "busStopName": "Przodkowo, Urząd Gminy",
+              "arrivalTime": ["11:30", "13:30", "15:30", "18:30"]
+            },
+            {
+              "id": 7,
+              "busStopName": "Kartuzy, Dworzec",
+              "arrivalTime": ["11:45", "13:45", "15:45", "18:45"]
+            }
+          ]
+        },
+        "routeB": {
+          "id": 4,
+          "routeLabel": "Kartuzy, Dworzec - Gdańsk, Dworzec PKS",
+          "busStops": [
+            {
+              "id": 7,
+              "busStopName": "Kartuzy, Dworzec",
+              "arrivalTime": ["12:10", "14:10", "16:55", "19:10"]
+            },
+            {
+              "id": 13,
+              "busStopName": "Przodkowo, Urząd Gminy",
+              "arrivalTime": ["12:25", "14:25", "16:25", "19:25"]
+            },
+            {
+              "id": 12,
+              "busStopName": "Pępowo",
+              "arrivalTime": ["12:40", "14:40", "16:40", "19:40"]
+            },
+            {
+              "id": 11,
+              "busStopName": "Rębiechowo",
+              "arrivalTime": ["12:48", "14:48", "16:48", "19:48"]
+            },
+            {
+              "id": 10,
+              "busStopName": "Gdańsk, Wrzeszcz PKP",
+              "arrivalTime": ["13:12", "15:12", "17:12", "20:12"]
+            },
+            {
+              "id": 9,
+              "busStopName": "Gdańsk, Uniwersytet Medyczny",
+              "arrivalTime": ["13:20", "15:20", "17:20", "20:20"]
+            },
+            {
+              "id": 8,
+              "busStopName": "Gdańsk, Dworzec PKS",
+              "arrivalTime": ["13:25", "15:25", "17:25", "20:25"]
+            }
+          ]
+        }
+      }
+    },{
+      "id": 5,
+      "busNumber": "673",
+      "busRoutes": {
+        "routeA": {
+          "id": 3,
+          "routeLabel": "Gdańsk, Dworzec PKS - Kartuzy, Dworzec",
+          "busStops": [
+            {
+              "id": 8,
+              "busStopName": "Gdańsk, Dworzec PKS",
+              "arrivalTime": ["10:30", "12:30", "14:30", "17:30"]
+            },
+            {
+              "id": 9,
+              "busStopName": "Gdańsk, Uniwersytet Medyczny",
+              "arrivalTime": ["10:35", "12:35", "14:35", "17:35"]
+            },
+            {
+              "id": 10,
+              "busStopName": "Gdańsk, Wrzeszcz PKP",
+              "arrivalTime": ["10:43", "12:43", "14:43", "17:43"]
+            },
+            {
+              "id": 11,
+              "busStopName": "Rębiechowo",
+              "arrivalTime": ["11:07", "13:07", "15:07", "18:07"]
+            },
+            {
+              "id": 12,
+              "busStopName": "Pępowo",
+              "arrivalTime": ["11:15", "13:15", "15:15", "18:15"]
+            },
+            {
+              "id": 13,
+              "busStopName": "Przodkowo, Urząd Gminy",
+              "arrivalTime": ["11:30", "13:30", "15:30", "18:30"]
+            },
+            {
+              "id": 7,
+              "busStopName": "Kartuzy, Dworzec",
+              "arrivalTime": ["11:45", "13:45", "15:45", "18:45"]
+            }
+          ]
+        },
+        "routeB": {
+          "id": 4,
+          "routeLabel": "Kartuzy, Dworzec - Gdańsk, Dworzec PKS",
+          "busStops": [
+            {
+              "id": 7,
+              "busStopName": "Kartuzy, Dworzec",
+              "arrivalTime": ["12:10", "14:10", "16:55", "19:10"]
+            },
+            {
+              "id": 13,
+              "busStopName": "Przodkowo, Urząd Gminy",
+              "arrivalTime": ["12:25", "14:25", "16:25", "19:25"]
+            },
+            {
+              "id": 12,
+              "busStopName": "Pępowo",
+              "arrivalTime": ["12:40", "14:40", "16:40", "19:40"]
+            },
+            {
+              "id": 11,
+              "busStopName": "Rębiechowo",
+              "arrivalTime": ["12:48", "14:48", "16:48", "19:48"]
+            },
+            {
+              "id": 10,
+              "busStopName": "Gdańsk, Wrzeszcz PKP",
+              "arrivalTime": ["13:12", "15:12", "17:12", "20:12"]
+            },
+            {
+              "id": 9,
+              "busStopName": "Gdańsk, Uniwersytet Medyczny",
+              "arrivalTime": ["13:20", "15:20", "17:20", "20:20"]
+            },
+            {
+              "id": 8,
+              "busStopName": "Gdańsk, Dworzec PKS",
+              "arrivalTime": ["13:25", "15:25", "17:25", "20:25"]
+            }
+          ]
+        }
+      }
+    }
+  ],
+
+  "busStops": [
+    {
+      "id": 1,
+      "busStopName": "Nowa Wieś Przywidzka",
+      "buses": [
+        {
+          "id": 1,
+          "busNumber": "3",
+          "routeA": {
+            "id": 1,
+            "routeLabel": "Nowa Wieś Przywidzka - Kartuzy, Dworzec",
+            "arrivalTime": ["10:00", "12:00", "15:00", "17:00"]
+          },
+          "routeB": {
+            "id": 2,
+            "routeLabel": "Kartuzy, Dworzec - Nowa Wieś Przywidzka",
+            "arrivalTime": ["11:55", "13:55", "16:55", "18:55"]
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "busStopName": "Roztoka",
+      "buses": [
+        {
+          "id": 1,
+          "busNumber": "3",
+          "routeA": {
+            "id": 1,
+            "routeLabel": "Nowa Wieś Przywidzka - Kartuzy, Dworzec",
+            "arrivalTime": ["10:05", "12:05", "15:05", "17:05"]
+          },
+          "routeB": {
+            "id": 2,
+            "routeLabel": "Kartuzy, Dworzec - Nowa Wieś Przywidzka",
+            "arrivalTime": ["11:50", "13:50", "16:50", "18:50"]
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "busStopName": "Kamela",
+      "buses": [
+        {
+          "id": 1,
+          "busNumber": "3",
+          "routeA": {
+            "id": 1,
+            "routeLabel": "Nowa Wieś Przywidzka - Kartuzy, Dworzec",
+            "arrivalTime": ["10:10", "12:10", "15:10", "17:10"]
+          },
+          "routeB": {
+            "id": 2,
+            "routeLabel": "Kartuzy, Dworzec - Nowa Wieś Przywidzka",
+            "arrivalTime": ["11:45", "13:45", "16:45", "18:45"]
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "busStopName": "Egiertowo, Stacja paliw",
+      "buses": [
+        {
+          "id": 1,
+          "busNumber": "3",
+          "routeA": {
+            "id": 1,
+            "routeLabel": "Nowa Wieś Przywidzka - Kartuzy, Dworzec",
+            "arrivalTime": ["10:20", "12:20", "15:20", "17:20"]
+          },
+          "routeB": {
+            "id": 2,
+            "routeLabel": "Kartuzy, Dworzec - Nowa Wieś Przywidzka",
+            "arrivalTime": ["11:35", "13:35", "16:35", "18:35"]
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "busStopName": "Somonino",
+      "buses": [
+        {
+          "id": 1,
+          "busNumber": "3",
+          "routeA": {
+            "id": 1,
+            "routeLabel": "Nowa Wieś Przywidzka - Kartuzy, Dworzec",
+            "arrivalTime": ["10:30", "12:30", "15:30", "17:30"]
+          },
+          "routeB": {
+            "id": 2,
+            "routeLabel": "Kartuzy, Dworzec - Nowa Wieś Przywidzka",
+            "arrivalTime": ["11:25", "13:25", "16:25", "18:25"]
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "busStopName": "Kiełpino, Bernardówka",
+      "buses": [
+        {
+          "id": 1,
+          "busNumber": "3",
+          "routeA": {
+            "id": 1,
+            "routeLabel": "Nowa Wieś Przywidzka - Kartuzy, Dworzec",
+            "arrivalTime": ["10:40", "12:40", "15:40", "17:40"]
+          },
+          "routeB": {
+            "id": 2,
+            "routeLabel": "Kartuzy, Dworzec - Nowa Wieś Przywidzka",
+            "arrivalTime": ["11:15", "13:15", "16:15", "18:15"]
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "busStopName": "Kartuzy, Dworzec",
+      "buses": [
+        {
+          "id": 21,
+          "busNumber": "3",
+          "routeA": {
+            "id": 1,
+            "routeLabel": "Nowa Wieś Przywidzka - Kartuzy, Dworzec",
+            "arrivalTime": ["10:55", "12:55", "15:55", "17:55"]
+          },
+          "routeB": {
+            "id": 2,
+            "routeLabel": "Kartuzy, Dworzec - Nowa Wieś Przywidzka",
+            "arrivalTime": ["11:00", "13:00", "16:00", "18:00"]
+          }
+        },
+        {
+          "id": 2,
+          "busNumber": "810",
+          "routeA": {
+            "id": 3,
+            "routeLabel": "Gdańsk, Dworzec PKS - Kartuzy, Dworzec",
+            "arrivalTime": ["11:45", "13:45", "15:45", "18:45"]
+          },
+          "routeB": {
+            "id": 4,
+            "routeLabel": "Kartuzy, Dworzec - Gdańsk, Dworzec PKS",
+            "arrivalTime": ["12:10", "14:10", "16:55", "19:10"]
+          }
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "busStopName": "Gdańsk, Dworzec PKS",
+      "buses": [
+        {
+          "id": 1,
+          "busNumber": "810",
+          "routeA": {
+            "id": 1,
+            "routeLabel": "Gdańsk, Dworzec PKS - Kartuzy, Dworzec",
+            "arrivalTime": ["10:30", "12:30", "14:30", "17:30"]
+          },
+          "routeB": {
+            "id": 2,
+            "routeLabel": "Kartuzy, Dworzec - Gdańsk, Dworzec PKS",
+            "arrivalTime": ["13:25", "15:25", "17:25", "20:25"]
+          }
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "busStopName": "Gdańsk, Uniwersytet Medyczny",
+      "buses": [
+        {
+          "id": 1,
+          "busNumber": "810",
+          "routeA": {
+            "id": 1,
+            "routeLabel": "Gdańsk, Dworzec PKS - Kartuzy, Dworzec",
+            "arrivalTime": ["10:35", "12:35", "14:35", "17:35"]
+          },
+          "routeB": {
+            "id": 2,
+            "routeLabel": "Kartuzy, Dworzec - Gdańsk, Dworzec PKS",
+            "arrivalTime": ["13:20", "15:20", "17:20", "20:20"]
+          }
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "busStopName": "Gdańsk, Wrzeszcz PKP",
+      "buses": [
+        {
+          "id": 1,
+          "busNumber": "810",
+          "routeA": {
+            "id": 1,
+            "routeLabel": "Gdańsk, Dworzec PKS - Kartuzy, Dworzec",
+            "arrivalTime": ["10:43", "12:43", "14:43", "17:43"]
+          },
+          "routeB": {
+            "id": 2,
+            "routeLabel": "Kartuzy, Dworzec - Gdańsk, Dworzec PKS",
+            "arrivalTime": ["13:12", "15:12", "17:12", "20:12"]
+          }
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "busStopName": "Rębiechowo",
+      "buses": [
+        {
+          "id": 1,
+          "busNumber": "810",
+          "routeA": {
+            "id": 1,
+            "routeLabel": "Gdańsk, Dworzec PKS - Kartuzy, Dworzec",
+            "arrivalTime": ["11:07", "13:07", "15:07", "18:07"]
+          },
+          "routeB": {
+            "id": 2,
+            "routeLabel": "Kartuzy, Dworzec - Gdańsk, Dworzec PKS",
+            "arrivalTime": ["12:48", "14:48", "16:48", "19:48"]
+          }
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "busStopName": "Pępowo",
+      "buses": [
+        {
+          "id": 1,
+          "busNumber": "810",
+          "routeA": {
+            "id": 1,
+            "routeLabel": "Gdańsk, Dworzec PKS - Kartuzy, Dworzec",
+            "arrivalTime": ["11:15", "13:15", "15:15", "18:15"]
+          },
+          "routeB": {
+            "id": 2,
+            "routeLabel": "Kartuzy, Dworzec - Gdańsk, Dworzec PKS",
+            "arrivalTime": ["12:40", "14:40", "16:40", "19:40"]
+          }
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "busStopName": "Przodkowo, Urząd Gminy",
+      "buses": [
+        {
+          "id": 1,
+          "busNumber": "810",
+          "routeA": {
+            "id": 1,
+            "routeLabel": "Gdańsk, Dworzec PKS - Kartuzy, Dworzec",
+            "arrivalTime": ["11:30", "13:30", "15:30", "18:30"]
+          },
+          "routeB": {
+            "id": 2,
+            "routeLabel": "Kartuzy, Dworzec - Gdańsk, Dworzec PKS",
+            "arrivalTime": ["12:25", "14:25", "16:25", "19:25"]
+          }
+        }
+      ]
+    }
+  ]
+}

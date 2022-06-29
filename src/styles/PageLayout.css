@@ -1,0 +1,33 @@
+.page-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 2%;
+  box-shadow: 0px 0px 34px -2px rgba(66, 68, 90, 1);
+  border-radius: 0px 0px 20px 20px;
+  background-color: var(--white);
+
+}
+
+.page-layout > * {
+  margin-bottom: 3%;
+
+}
+
+.page-layout__back-button {
+  position: relative;
+  appearance: none;
+  border: none;
+  background-color: inherit;
+  align-self: start;
+  font-size: var(--l);
+  cursor: pointer;
+  margin-bottom: 1px;
+}
+
+.page-layout__back-button:hover {
+  text-decoration: none;
+  color:var(--red);
+}
