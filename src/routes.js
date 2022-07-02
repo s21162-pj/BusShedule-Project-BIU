@@ -1,6 +1,6 @@
 export const routes = {
   home: "/",
-  bus: "/bus/:id",
-  busStop: "/bus-stop/:id",
+  bus: "/autobus/:id",
+  busStop: "/przystanek/:id",
   notFound: "*"
 };

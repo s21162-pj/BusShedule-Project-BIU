@@ -2,10 +2,10 @@ import React from "react";
 
 import PageLayout from "../layouts/PageLayout";
 
-import MainPageBackground from "../components/MainPageBackground"
+import MainPageBackground from "../components/MainPageImage/MainPageBackground"
 
-import List from "../components/List";
-import ListItem from "../components/ListItem";
+import List from "../components/List/List";
+import ListItems from "../components/ListItems/ListItems";
 
 import { BusDBContext } from "../contexts/BusDBContext/BusDBContext";
 
@@ -19,10 +19,10 @@ export default function Home() {
       <>
         <List title="Linie Autobusowe" row={true}>
           {bus_db.buses.map(({ id, busNumber }) => (
-            <ListItem
+            <ListItems
               key={`${busNumber}-${id}`}
               id={id}
-              slug="bus"
+              slug="autobus"
               name={busNumber}
               itemBg={true}
             />
@@ -30,10 +30,10 @@ export default function Home() {
         </List>
         <List title="Lista wszystkich przystanków">
           {bus_db.busStops.map(({ id, busStopName }) => (
-            <ListItem
+            <ListItems
               key={`${busStopName}-${id}`}
               id={id}
-              slug="bus-stop"
+              slug="przystanek"
               name={busStopName}
             />
 

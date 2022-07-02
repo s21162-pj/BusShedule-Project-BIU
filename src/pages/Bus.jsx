@@ -6,8 +6,8 @@ import { BusDBContext } from "../contexts/BusDBContext/BusDBContext";
 
 import PageLayout from "../layouts/PageLayout";
 
-import List from "../components/List";
-import BusRouteList from "../components/BusRouteList";
+import List from "../components/List/List";
+import BusRoutesList from "../components/BusRoutesList/BusRoutesList";
 import BusRoutesLayout from "../layouts/BusRoutesLayout";
 
 export default function Bus() {
@@ -21,11 +21,11 @@ export default function Bus() {
       {busData ? (
         <List title={`Linia ${busData.busNumber}`}>
           <BusRoutesLayout>
-            <BusRouteList
+            <BusRoutesList
               routeLabel={busData.busRoutes.routeA.routeLabel}
               busStops={busData.busRoutes.routeA.busStops}
             />
-            <BusRouteList
+            <BusRoutesList
               routeLabel={busData.busRoutes.routeB.routeLabel}
               busStops={busData.busRoutes.routeB.busStops}
             />

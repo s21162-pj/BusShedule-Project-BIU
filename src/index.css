@@ -20,7 +20,6 @@
   --l: 1.5rem;
   --xl: 2rem;
   --xxl: 3rem;
-
 }
 
 body {
@@ -30,8 +29,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: var(--white);
   color: var(--black);
-  background-image: url("./styles/2.png");
-  
+  background-image: url("./assets/2.png");
 }
 
 ul {

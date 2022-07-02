@@ -7,8 +7,8 @@ import Bus from "./pages/Bus";
 import BusStop from "./pages/BusStop";
 import NotFound from "./pages/NotFound";
 
-import NavBar from "./components/NavBar";
-import Footer from "./components/Footer";
+import NaviBar from "./components/NaviBar/NaviBar";
+import Footer from "./components/Footer/Footer";
 
 import BusDBContextProvider from "./contexts/BusDBContext/BusDBContextProvider";
 
@@ -16,7 +16,7 @@ export default function App() {
   return (
     <BusDBContextProvider>
       <BrowserRouter>
-        <NavBar />
+        <NaviBar />
         <Routes>
           <Route path={routes.home} element={<Home />} />
           <Route path={routes.bus} element={<Bus />} />
