@@ -1,0 +1,21 @@
+.buses-list__item {
+  padding: 2%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.buses-list__item > a {
+  width: 100%;
+  text-align: center;
+  font-size: var(--xxl);
+
+}
+
+.buses-list__item > *:not(:first-child) {
+  margin-bottom: 1%;
+  box-shadow: 0px 0px 34px -2px rgba(66, 68, 90, 1);
+  border-radius: 0px 0px 10px 10px;
+}

@@ -1,0 +1,18 @@
+img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .Main-bg {
+    width: 100%;
+    margin: 0px
+  }
+  .Main-bg-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--white);
+    font-size: 5rem;
+    text-shadow: 4px 4px 15px rgba(0, 0, 0, 1);
+  }

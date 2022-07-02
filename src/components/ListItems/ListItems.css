@@ -1,0 +1,13 @@
+.list-item {
+  font-size: var(--l);
+}
+
+.list-item-bg {
+  padding: 1%;
+  background: var(--light);
+  color: var(--white);
+  border-radius: 10px;
+}
+.list-item-bg:hover {
+  background: var(--black);
+}
